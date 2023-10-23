@@ -191,7 +191,10 @@ database = {}
 - En la terminal, ejecuta el siguiente comando para iniciar la aplicación:
 
 ```bash
+
 uvicorn main:app --reload
+# ESTE ES EL BUENO PARA WINDOWS
+python -m uvicorn main:app --reload
 ```
 
 - Esto iniciará el servidor de desarrollo y podrás acceder a tu API en http://localhost:8000.
